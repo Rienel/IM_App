@@ -24,8 +24,7 @@
                 <a href="contactus.php">Contact Us</a>
             </nav>
         </header>
-
-
+        
     <!-- <div class="main_content">
         <h3>Search for you favorite songs</h3>
     </div> -->

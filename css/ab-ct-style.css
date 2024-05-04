@@ -1,30 +1,51 @@
 * {
-    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-nav {
-    color: white;
-    border: 1px solid white;
+body {
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: rgb(0, 0, 0, .3);
 }
 
-.container_aboutus {
-    background: #1f1f1f;
-    margin: 0;
-    min-width:300px;
+.logo {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
 }
 
-.container_ab {
-    display: flex; 
-    flex-direction: column; 
-    height: 100vh; 
-    margin: 0;
+.navubaru a {
+    font-size: 1.30rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    /* rienel gwapo */
+    margin-left: 2.5rem;
+} 
+
+.vid-section {
+    background-color: #1d1d1d;
 }
 
 .video {
     display: flex;
     justify-content: center;
+    clip-path: inset(1px 1px);
 }
 
 #vid_app {
@@ -40,7 +61,7 @@ nav {
     font-family: Arial, sans-serif;
     font-weight: 800;
     text-align: center;
-    font-size: 1.875rem;
+    font-size: 2.5rem;
     line-height: 1.133;
     color: #2b2a29;
     padding-top: 20px;
@@ -109,19 +130,11 @@ a {
 
 
 /* Contact Us CCS */
-.container_contactus {
-    background-color: #1f1f1f;
-    min-width: 300px;
-}
-
-.container_co {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-}
 
 .container_co .con_img {
+    padding-top: 225px;
     background-color: #1f1f1f;
+    padding-bottom: 25px;
 }
 
 .contactus {
@@ -143,6 +156,7 @@ a {
     margin-left: 15em;
     margin-right: 15em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    padding-top: 25px;
 }
 
 .social_contacts h3 {
@@ -161,7 +175,7 @@ a {
 }
 
 .log_in {
-    margin-top: 3em;
+    margin-top: 2em;
     margin-left: 15em;
     margin-right: 15em;
     background-color: #282428;
@@ -178,14 +192,13 @@ a {
 }
 
 .log_in_button {
-    padding-top: 2em;
-    margin-right: 3.5em;
+    margin-right: 25px;
 }
 
 .login {
     position: relative;
     margin: auto;
-    padding: 12px 18px;
+    padding: 12px 18px 0px;
     transition: all 0.2s ease;
     border: none;
     background: none;

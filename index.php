@@ -10,25 +10,49 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>index</title>
 </head>
-<body>
-    <div class="navbar">
-        <nav>
-            <ul>
-                <li><a href="login.php">Login</a></li>
-                <li><a href="register.php">Sign Up</a></li>
-                <li><a href="aboutus.php">About Us</li>
-                <li><a href="contactus.php">Contact Us</li>
-            </ul>
-        </nav>
-    </div>
+    <body>
+        <header class="header">
+            <a href="#" class="logo"> LOGO HERE </a>
 
-    <div class="content">
-        <div class="title">
-            <h1>REFRAINED</h1>
-        </div>
-    </div>
-    
-</body>
+            <nav class="navubaru">
+                <a href="login.php">Login</a>
+                <a href="register.php">Sign Up</a>
+                <a href="aboutus.php">About Us</a>
+                <a href="contactus.php">Contact Us</a>
+            </nav>
+        </header>
+
+
+        <!-- <div class="main-page">
+            <div class="artist-page">
+                <h2>Popular Artist</h2>
+                <div class="artistses">
+
+                    <div class="artist-card">
+                        <div class="artist-pic_1">
+                            <img src="css/Images/GUNDAM.png"
+                        </div>
+                        <p>artist 1</p>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-pic_2">
+                            <p>artist 2</p>
+                        </div>
+                    </div>
+
+                    <div class="artist-card">
+                        <div class="artist-pic_3">
+                            <p>artist 3</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div> -->
+
+    </body>
 </html>

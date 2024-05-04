@@ -7,41 +7,40 @@
     <link rel="stylesheet" href="css/registerstyle.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
 </head>
 <body>
-    <h1 class="registerh1"  >Register</h1>
-    <div class="loginForm">
+    <div class="registerForm">
+        <h1 class="registerh1">Register</h1>
         <form class="forminput" method="post">
+
             <div class="text-input">
-                <label for="username">First Name</label>
-                <input type="text" placeholder="Username" id="firstname" name="txtfirstname">
+                <input type="text" placeholder="First Name" id="firstname" name="txtfirstname">
             </div>
+
             <div class="text-input">
-                <label for="username">Last Name</label>
-                <input type="text" placeholder="Username" id="lastname" name="txtlastname">
+                <input type="text" placeholder="Last Name" id="lastname" name="txtlastname">
             </div>
+
             <div class="text-input">
-                <label for="username">Gender</label>
-                <input type="text" placeholder="Username" id="gender" name="txtgender">
+                <input type="text" placeholder="Gender" id="gender" name="txtgender">
             </div>
+
             <div class="text-input">
-                <label for="username">Email</label>
-                <input type="text" placeholder="Username" id="username" name="txtemail">
+                <input type="text" placeholder="Email" id="username" name="txtemail">
             </div>
+
             <div class="text-input">
-                <label for="username">Username</label>
                 <input type="text" placeholder="Username" id="lastname" name="txtusername">
             </div>
+
             <div class="text-input">
-                <label for="password">Password</label>
                 <input type="text" placeholder="Password" id="password" name="txtpassword">
             </div>
             
-            <div class="login-button">
-                <button type="submit" name="btnRegister">Register</button>
-            </div>
-            <p class="p-b" >Already have an account? <a href="login.php">Log in here</a>.</p>
+            <button type="submit" class="Register" name="btnRegister">Register</button>
+
+            <p class="login-link" >Already have an account? <a href="login.php">Log in here</a>.</p>
         </form>
         
 
